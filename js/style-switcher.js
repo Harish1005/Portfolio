@@ -19,7 +19,8 @@ function setActiveStyle(color) {
     else {
       style.setAttribute("disabled", "true");
     }
-  })
+  });
+  document.querySelector(".style-switcher").classList.remove("open");
 }
 /** dark mode and light mode */
 const dayNight = document.querySelector(".day-night");
