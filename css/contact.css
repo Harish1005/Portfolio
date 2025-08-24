@@ -72,3 +72,9 @@
   height: 50px;
   padding: 0 50px;
 }
+.sendMessage{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
